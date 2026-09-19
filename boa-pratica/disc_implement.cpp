@@ -37,6 +37,7 @@ void Disciplina::setVagas(int vagas){
 
 void Disciplina::mensagem(){
     cout << "Bem vindos à disciplina de " << getNomeDisciplina() << "!" << endl;
+    cout << "Esta diciplina é ministrada por: " << getNomeProfessor() << endl; 
 }
 
 
