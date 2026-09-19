@@ -8,14 +8,20 @@ Disciplina::Disciplina (){
     setVagas(0);
 }
 
-Disciplina::Disciplina (string nome, int vagas){
+Disciplina::Disciplina (string nome, int vagas, string nomeCurso, string nomeProfessor){  
     this->nomeDisciplina = nome;
     this->numVagas = vagas;
-}
+    this->nomeDisciplina = nomeCurso; 
+    this->nomeProfessor = nomeProfessor; 
+} 
 
 string Disciplina::getNomeDisciplina(){
     return nomeDisciplina;
 } // Função get
+ 
+string Disciplina::getNomeProfessor(){
+	return nomeProfessor;
+} 
 
 void Disciplina::setNomeDisciplina(string nome){
     nomeDisciplina = nome;
@@ -32,3 +38,5 @@ void Disciplina::setVagas(int vagas){
 void Disciplina::mensagem(){
     cout << "Bem vindos à disciplina de " << getNomeDisciplina() << "!" << endl;
 }
+
+

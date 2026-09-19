@@ -15,3 +15,13 @@ Será preciso pensar em 3 partes:
     3. Implementar o get/set no .cpp 
 
 
+## (c) Modifique o construtor para receber dois parametros, o nome do curso e o nome do professor.
+Modificado o construtor no .h 
+Disciplina (string nome, int vagas, string nomeCurso, string nomeProfessor);
+
+Uma vez que o construtor tem quatro parâmetros esses dados também precisam ser modificados na implementação e os atributos declarados na classe. 
+Oo valores informados  na classe ficam que no main. 
+A implementação em implementação.cpp. 
+E no .h a declaração do construtor de 4 argumentos. 
+
+As informações que serão exibidas precisam ser modificadas caso não houver chamada na main.O getter/setter declarados no .h e implementados no cpp e só então usados na main.

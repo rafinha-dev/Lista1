@@ -7,7 +7,7 @@ class Disciplina {
 public:
 
     Disciplina ();
-    Disciplina (string nome, int vagas);
+    Disciplina (string nome, int vagas, string nomeCurso, string nomeProfessor);
     string getNomeDisciplina();
     string getNomeProfessor(); 
     void setNomeDisciplina(string nome);
