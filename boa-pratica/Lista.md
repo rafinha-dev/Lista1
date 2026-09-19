@@ -16,6 +16,7 @@ Será preciso pensar em 3 partes:
 
 
 ## (c) Modifique o construtor para receber dois parametros, o nome do curso e o nome do professor.
+
 Modificado o construtor no .h 
 Disciplina (string nome, int vagas, string nomeCurso, string nomeProfessor);
 
@@ -25,3 +26,12 @@ A implementação em implementação.cpp.
 E no .h a declaração do construtor de 4 argumentos. 
 
 As informações que serão exibidas precisam ser modificadas caso não houver chamada na main.O getter/setter declarados no .h e implementados no cpp e só então usados na main.
+
+## (d) Modifique o m ́etodo mensagem para que ele primeiro imprima a mensagem de boas-vindas
+
+com o nome do curso e depois imprima Esta disciplina é ministrada por:  seguido do
+nome do professor.
+Demonstre a classe em um programa que cria dois objetos com nomes diferentes e chama
+mensagem nos dois.
+
+Depois de modificado o arquivo de implementação do método de mensagem, criei no main outro objeto e modifiquei a forma de exibir os valores já guardados dentro do main. 
