@@ -35,3 +35,10 @@ Demonstre a classe em um programa que cria dois objetos com nomes diferentes e c
 mensagem nos dois.
 
 Depois de modificado o arquivo de implementação do método de mensagem, criei no main outro objeto e modifiquei a forma de exibir os valores já guardados dentro do main. 
+2. Crie uma classe Account que um banco poderia usar para representar contas bancarias.
+Ela deve ter um atributo privado saldo do tipo float. Forneca um construtor que recebe o
+saldo inicial e o valida, configurando o saldo como zero e exibindo uma mensagem de erro se
+o valor for negativo. Forneca tres metodos: creditar float valor que adiciona ao saldo,
+debitarfloat valor que subtrai do saldo apenas se o valor nao exceder o saldo atual,
+imprimindo uma mensagem de erro caso contrario, e getSaldo que retorna o saldo. Crie um
+programa com dois objetos Account e demonstre os tres metodos, incluindo tentativas invalidas.
