@@ -65,3 +65,10 @@ tres sensores, tente registrar valores invalidos e chame leitura() em todos.
 
 Crie uma classe Retangulo com atributos privados largura e altura, ambos do tipo float. Os dois setters devem rejeitar valores negativos ou zero. Forneçaa dois construtores, um sem parâmetros que inicializa ambos como 1.0, e um com os dois parâmetros. Adicione os métodos area() e perimetro(), que calculam e retornam os respectivos valores, e um método exibir() que imprime todos os dados do retângulo. Por fim, adicione um método quadrado()que retorna true se o retângulo for um quadrado.
 No main, crie um array de três retângulos com dimensões diferentes. Percorra o array imprimindo os dados de cada um, e ao final imprima qual deles tem a maior  área.  O array deve conter ao menos um quadrado.
+
+
+# 5
+
+
+Crie uma classe Placar para um jogo entre dois times. Os atributos privados devem ser nomeTime1, nomeTime2 (string) e golsTime1, golsTime2 (int). O construtor recebe os nomes dos dois times e inicializa os gols como zero. Forneçaa metodos marcarTime1() e marcarTime2() que incrementam os gols do respectivo time, e um método resultado() que imprime o placar atual no formato “Atletico 2 x 1 Cruzeiro”, seguido de quem esta vencendo ou se é empate. Adicione um metodo reiniciar() que zera os gols sem alterar os nomes, e um destrutor que imprime “Partida encerrada: ” seguido do resultado final.
+No main, simule uma partida com pelo menos cinco gols, chame resultado() ap ́os cada gol e reiniciar() para uma segunda partida.
