@@ -35,10 +35,26 @@ Demonstre a classe em um programa que cria dois objetos com nomes diferentes e c
 mensagem nos dois.
 
 Depois de modificado o arquivo de implementação do método de mensagem, criei no main outro objeto e modifiquei a forma de exibir os valores já guardados dentro do main. 
-2. Crie uma classe Account que um banco poderia usar para representar contas bancarias.
+
+# 2. 
+
+Crie uma classe Account que um banco poderia usar para representar contas bancarias.
 Ela deve ter um atributo privado saldo do tipo float. Forneca um construtor que recebe o
 saldo inicial e o valida, configurando o saldo como zero e exibindo uma mensagem de erro se
 o valor for negativo. Forneca tres metodos: creditar float valor que adiciona ao saldo,
 debitarfloat valor que subtrai do saldo apenas se o valor nao exceder o saldo atual,
 imprimindo uma mensagem de erro caso contrario, e getSaldo que retorna o saldo. Crie um
 programa com dois objetos Account e demonstre os tres metodos, incluindo tentativas invalidas.
+
+# 3
+
+
+Crie uma classe Sensor com os atributos privados nome (string), temperatura (float) e
+unidade (char, valendo ’C’ para Celsius ou ’F’ para Fahrenheit). Forneça dois construtores,
+um sem parˆametros que inicializa nome como “Sensor”, temperatura como 0 e unidade como
+’C’, e um com os trˆes parˆametros. O setter de temperatura deve rejeitar valores abaixo de
+−273,15 quando a unidade for Celsius, e abaixo de −459,67 quando for Fahrenheit, que s ̃ao os
+zeros absolutos em cada escala. Forne ̧ca um m ́etodo leitura() que imprime o nome do sensor
+seguido da temperatura e da unidade, por exemplo “Sensor1: 36.5 C”. No main, crie ao menos
+trˆes sensores, tente registrar valores inv ́alidos e chame leitura() em todos.
+
