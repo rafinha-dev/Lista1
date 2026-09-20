@@ -51,10 +51,17 @@ programa com dois objetos Account e demonstre os tres metodos, incluindo tentati
 
 Crie uma classe Sensor com os atributos privados nome (string), temperatura (float) e
 unidade (char, valendo ’C’ para Celsius ou ’F’ para Fahrenheit). Forneça dois construtores,
-um sem parˆametros que inicializa nome como “Sensor”, temperatura como 0 e unidade como
-’C’, e um com os trˆes parˆametros. O setter de temperatura deve rejeitar valores abaixo de
-−273,15 quando a unidade for Celsius, e abaixo de −459,67 quando for Fahrenheit, que s ̃ao os
-zeros absolutos em cada escala. Forne ̧ca um m ́etodo leitura() que imprime o nome do sensor
-seguido da temperatura e da unidade, por exemplo “Sensor1: 36.5 C”. No main, crie ao menos
-trˆes sensores, tente registrar valores inv ́alidos e chame leitura() em todos.
+um sem parametros que inicializa nome como “Sensor”, temperatura como 0 e unidade como ’C’, e um com os tres parametros. O setter de temperatura deve rejeitar valores abaixo de −273,15 quando a unidade for Celsius, e abaixo de −459,67 quando for Fahrenheit, que são os zeros absolutos em cada escala. Forneça um metodo leitura() que imprime o nome do sensor seguido da temperatura e da unidade, por exemplo “Sensor1: 36.5 C”. No main, crie ao menos
+tres sensores, tente registrar valores invalidos e chame leitura() em todos.
 
+- Os atributos privados criados. 
+- Um construtor foi declarado vazio e o outro com 3 parâmetros. 
+- A pagina de implementação dos construtores foi feito 1 como solicitado vazio e inicializado, ja o outro foi preciso colocar os parâmetros para identificar o construtor que era. 
+    Aqui temos uma sovrecarga de construtores, mesmoo nome mas assinaturas diferentes. 
+- implementado limite de temperatura de zero absoluto. 
+
+
+# 4 
+
+Crie uma classe Retangulo com atributos privados largura e altura, ambos do tipo float. Os dois setters devem rejeitar valores negativos ou zero. Forneçaa dois construtores, um sem parâmetros que inicializa ambos como 1.0, e um com os dois parâmetros. Adicione os métodos area() e perimetro(), que calculam e retornam os respectivos valores, e um método exibir() que imprime todos os dados do retângulo. Por fim, adicione um método quadrado()que retorna true se o retângulo for um quadrado.
+No main, crie um array de três retângulos com dimensões diferentes. Percorra o array imprimindo os dados de cada um, e ao final imprima qual deles tem a maior  área.  O array deve conter ao menos um quadrado.
