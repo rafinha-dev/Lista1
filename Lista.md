@@ -72,3 +72,17 @@ No main, crie um array de três retângulos com dimensões diferentes. Percorra 
 
 Crie uma classe Placar para um jogo entre dois times. Os atributos privados devem ser nomeTime1, nomeTime2 (string) e golsTime1, golsTime2 (int). O construtor recebe os nomes dos dois times e inicializa os gols como zero. Forneçaa metodos marcarTime1() e marcarTime2() que incrementam os gols do respectivo time, e um método resultado() que imprime o placar atual no formato “Atletico 2 x 1 Cruzeiro”, seguido de quem esta vencendo ou se é empate. Adicione um metodo reiniciar() que zera os gols sem alterar os nomes, e um destrutor que imprime “Partida encerrada: ” seguido do resultado final.
 No main, simule uma partida com pelo menos cinco gols, chame resultado() ap ́os cada gol e reiniciar() para uma segunda partida.
+
+- criado classe placar com dois times com placar inicial 0 
+- metodos marcar implementados
+- implementado placar
+- implementado resultado 
+- implementado reiniciar 
+
+# 6 
+
+Crie uma classe Produto com os atributos privados nome (string), preco (float) e estoque (int). O construtor recebe os três valores e valida que o preço seja positivoe o estoque seja maior ou igual a zero. Forneça setters com validação para preço e estoque. Adicione três métodosde operação: vender(int quantidade) que reduz o estoque se houver unidades suficientes,imprimindo uma mensagem de erro caso contrário, repor(int quantidade) que aumenta o estoque apenas para valores positivos, e valorEmEstoque() que retorna o preçoo multiplicado pelo estoque atual.
+Crie uma função void maisValioso(Produto& a, Produto& b) que recebe dois produtos por referência e imprime qual deles tem o maior valor em estoque. No main, crie dois produtos, faça operaçõoes de venda e reposiçãao e chame maisValioso.
+
+-- não da para criar no main um atributo privado de classe diretamente para colocar o nome o preço na tela.
+- a função maisValioso() é um caso em que ela não é um método de classe mas fica fora dela, precisa estar declarada na folha de classe e em concordância com a folha de implementação. Ela usa um atributo de referência de objeto e por referenciar o objeto não precisa ser exclusiva da classe. 
